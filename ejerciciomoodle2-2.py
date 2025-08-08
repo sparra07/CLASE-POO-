@@ -8,7 +8,7 @@ class Producto:
         if num_compras > 5:
             print("El sistema solo permite comprar 5 unidades de cada producto")
         elif self.cantidad_disponible >= num_compras:
-            self.cantidad_disponible - num_compras 
+            self.cantidad_disponible=self.cantidad_disponible - num_compras 
             print("Venta de", num_compras, "unidades de:", self.nombre)
         else:
             print("Venta inválida: no hay suficientes productos de:", self.nombre)
