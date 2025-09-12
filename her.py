@@ -35,4 +35,5 @@ animal2.orinar()
 print(isinstance(animal1,Perro))
 print(isinstance(animal1,Animal))
 print(issubclass(Perro, Animal))
-print(issubclass(Gato, Animal))
+print(issubclass(Gato, Perro))
+

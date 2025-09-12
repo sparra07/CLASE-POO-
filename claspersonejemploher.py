@@ -2,7 +2,7 @@ class Persona:
     def __init__(self,nombre):
         self.nombre=nombre
 
-    def saludar(self):
+    def orinar(self):
         pass
 
 class estudiante(Persona):
@@ -14,5 +14,6 @@ class estudiante(Persona):
         print(f"{self.nombre} esta estudiando")
 
 persona1=Persona("juan", "in sistemas")
-persona1.saludar
+persona1.orinar
         
+
