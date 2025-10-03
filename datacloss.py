@@ -5,7 +5,6 @@ class Persona:
     nombre: str
     edad: int = field(default=35)
 
-
     def retornar_edad_por_2(self) -> int:
         return self.edad *2
     

@@ -64,7 +64,7 @@ class Gerente(Empleado):
 class Tarea:
     def __init__(self, id_tarea, descripcion, horas):
         if horas < 0:
-            print("Error: no se pueden poner horas negativas en tareas.")
+            print("Error: no se pueden poner horas negativas")
             horas = 0
         self.id_tarea = id_tarea
         self.descripcion = descripcion
@@ -146,7 +146,7 @@ while True:
         salario = float(input("Ingrese salario: "))
 
         if tipo == "1":
-            lenguaje = input("Lenguaje principal: ")
+            lenguaje = input("Lenguaje principal que usa: ")
             empleado = Desarrollador(nombre, correo, salario, lenguaje)
 
         elif tipo == "2":
